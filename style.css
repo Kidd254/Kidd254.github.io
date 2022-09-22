@@ -4,7 +4,7 @@ body{
 .header{
     width: 330px;
     height: 150px;
-    top: 120px;
+    top: 300px;
     left: 24px;
     font-family: "Poppins";
     font-style: normal;
@@ -25,4 +25,15 @@ body{
     color: #344563;
     flex: none;
     order: 1;
+}
+.social-links{
+    width: 120px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size:14px ;
+    line-height: 20px;
+    color: #7f8cff;
+    flex: none;
+    order: 0;
 }
