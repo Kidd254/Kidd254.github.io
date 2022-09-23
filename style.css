@@ -1,29 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
-    background:#E5E5E5;
+    background-color:#e5e5e5;
+}
+.all{
+    background:#ffffff;
     width: 375px;
-    height:5410px;
-    position: relative;
+    height:718px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
     
 }
 
-.enabled{
-    display:flex;
-
-}
 .bars{
     position: absolute;
-    margin-left: 300px;
+    left: 3px;
+    top: 6px;
+    margin: 16px 35px 20px 323px;
     width: 18px;
     height: 12px;
     background: #6070FF;
-    box-align: center;
-    flex-direction: row-reverse ;
+ ;
+  
 
 }
 .logo{
-    width: 76px;
+    width: 150px;
     height: 20px;
+    top: 10px;
+    left: 12px;
+    margin: 26px 223px 16px 24px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -42,10 +48,16 @@ body{
     background-image: url(header-shapes\ mobile.jpg);
     background-repeat: no-repeat;
     background-size: auto;
+    position: absolute;
+    width: 718px;
+    margin:0px;
+    
 }
 .header{
     width: 327px;
     height: 150px;
+    top: 114px;
+    margin: 128px 24px 12px 24px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
@@ -61,6 +73,8 @@ body{
 .content{
     width: 327px;
     height: 146px;
+    top: 276px;
+    margin: 12px 24px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
@@ -74,6 +88,7 @@ body{
 .social-links{
     width: 117px;
     height: 24px;
+    margin: 12px 234px 15.03px 24px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -88,7 +103,11 @@ body{
 .connect{
     width:170.17px;
     height: 20px;
+    margin: 15.03px 180.83px 136px 24px;
+    top: 470px;
     flex: none;
     order: 3;
     flex-grow: 0;
 }
+
+
