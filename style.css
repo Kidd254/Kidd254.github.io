@@ -1,10 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     background:#E5E5E5;
+    
+}
+.all{
+    width:330px;
+    height: 400px;
+}
+.enabled{
+    display:flex;
+
+}
+.toolbar{
+    width: 330px;
+    height: 50px;
+    margin: 0px 0px 80px 10px;
+}
+.logo{
+    width:300px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:#6070FF;
+}
+.background{
+    background-image: url(header-shapes\ mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 .header{
     width: 330px;
-    height: 150px;
+    height: 100px;
+    margin: 50px 40px, 30px, 10px;
     top: 300px;
     left: 24px;
     font-family: "Poppins";
@@ -17,7 +50,8 @@ body{
 }
 .content{
     width: 330px;
-    height: 150px;
+    height: 100px;
+    margin: 50px 0px 20px 10px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 300;
@@ -30,6 +64,7 @@ body{
 .social-links{
     width: 120px;
     height: 20px;
+    margin: 0px 0px 0px 10px;
     font-family: 'Poppins';
     font-style: normal;
     font-size:14px ;
