@@ -1,33 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     background:#E5E5E5;
+    width: 375px;
+    height:5410px;
+    position: relative;
     
 }
-.all{
-    width:330px;
-    height: 400px;
-}
+
 .enabled{
     display:flex;
 
 }
-.toolbar{
-    width: 330px;
-    height: 50px;
-    margin: 0px 0px 80px 10px;
+.bars{
+    position: absolute;
+    margin-left: 300px;
+    width: 18px;
+    height: 12px;
+    background: #6070FF;
+    box-align: center;
+    flex-direction: row-reverse ;
+
 }
 .logo{
-    width:300px;
+    width: 76px;
     height: 20px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     display: flex;
     align-items: center;
     text-align: center;
     color:#6070FF;
+    flex: none;
+    order:0;
+    flex-grow: 0;
+    
 }
 .background{
     background-image: url(header-shapes\ mobile.jpg);
@@ -35,41 +44,51 @@ body{
     background-size: auto;
 }
 .header{
-    width: 330px;
-    height: 100px;
-    margin: 50px 40px, 30px, 10px;
-    top: 300px;
-    left: 24px;
+    width: 327px;
+    height: 150px;
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 300;
-    font-size: 50px;
-    line-height: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
     display:flex;
     align-items: center;
+    color: #172b4D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 .content{
-    width: 330px;
-    height: 100px;
-    margin: 50px 0px 20px 10px;
+    width: 327px;
+    height: 146px;
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     color: #344563;
     flex: none;
     order: 1;
+    flex-grow: 0;
 }
 .social-links{
-    width: 120px;
-    height: 20px;
-    margin: 0px 0px 0px 10px;
+    width: 117px;
+    height: 24px;
     font-family: 'Poppins';
     font-style: normal;
-    font-size:14px ;
-    line-height: 20px;
+    font-weight: 500;
+    font-size:16px ;
+    line-height: 24px;
     color: #7f8cff;
     flex: none;
     order: 0;
+    flex: 0;
+    flex-grow: 0;
+}
+.connect{
+    width:170.17px;
+    height: 20px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
 }
