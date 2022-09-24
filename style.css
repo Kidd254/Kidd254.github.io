@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
-  background-color:#e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .all {
   background: #fff;
   width: 375px;
   height: 718px;
-  top: 0px;
-  left: 0px;
-  position: absolute;   
-  
+  top: 0;
+  left: 0;
+  position: absolute;
 }
 
 .bars {
@@ -38,7 +37,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color:#6070ff;
+  color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -50,7 +49,7 @@ body {
   background-size: auto;
   position: absolute;
   width: 718px;
-  margin: 0px;
+  margin: 0;
 }
 
 .header {
