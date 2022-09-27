@@ -1,4 +1,4 @@
-*.annot
+t*.annot
 *.cmo
 *.cma
 *.cmi
@@ -27,3 +27,4 @@ setup.log
 
 # Local OPAM switch
 _opam/
+node_modules
