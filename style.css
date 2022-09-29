@@ -618,14 +618,14 @@ body {
 
 .container6 {
   width: 375px;
-  height: 700.15px;
+  height: 1125.15px;
   margin-top: 114px;
-  padding: 114px 24px;
   left: 24px;
   gap: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #fff;
 }
 
 .acco {
@@ -645,12 +645,13 @@ body {
 
 .about {
   width: 327px;
-  top: 114px;
+  margin-top: 114px;
+  margin-right: 24px;
   height: 101px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 52px;
   display: flex;
   align-items: center;
@@ -838,13 +839,14 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+  color: #253858;
 }
 
 .frame9 {
   width: 303px;
   height: 66.72px;
   margin-top: 12px;
-  margin-left: 12px;
+  left: 12px;
   background: #f7f7f9;
   border-radius: 8px;
   order: 0;
@@ -855,7 +857,7 @@ body {
   width: 303px;
   height: 66.72px;
   margin-top: 12px;
-  margin-left: 12px;
+  left: 12px;
   background: #f7f7f9;
   border-radius: 8px;
   order: 1;
@@ -866,7 +868,7 @@ body {
   width: 303px;
   height: 66.72px;
   margin-top: 12px;
-  margin-left: 12px;
+  left: 12px;
   background: #f7f7f9;
   border-radius: 8px;
   order: 2;
@@ -887,7 +889,6 @@ body {
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #253858;
 }
 
 .elipse1 {
