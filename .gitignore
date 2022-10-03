@@ -1,4 +1,4 @@
-*.annot
+t*.annot
 *.cmo
 *.cma
 *.cmi
