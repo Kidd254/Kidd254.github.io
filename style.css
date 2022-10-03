@@ -216,6 +216,14 @@ body {
   flex-grow: 0;
 }
 
+.tags2 ul .tagElement {
+  display: inline;
+  float: right;
+  padding: 4px;
+  color: #6070ff;
+  
+}
+
 .action2 {
   width: 295px;
   height: 88px;
