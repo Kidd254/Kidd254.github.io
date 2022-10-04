@@ -1023,7 +1023,8 @@ body {
   color: #ebebff;
   width: 327px;
   height: 102px;
-  margin-bottom: 87px;
+  margin-top: 10px;
+  margin-bottom: 68px;
 }
 
 .contactform .contact-form {
@@ -1036,9 +1037,16 @@ body {
 .contactform .contact-form .input-field {
   width: 327px;
   height: 48px;
-  margin-bottom: 20px;
   border-radius: 8px;
   border: none;
+}
+
+#name {
+  margin-bottom: 16px;
+}
+
+#email {
+  margin-bottom: 16px;
 }
 
 .contactform .contact-form .input-field::placeholder {
@@ -1051,8 +1059,8 @@ body {
 
 .contactform .contact-form .text-area {
   width: 327px;
-  height: 170px;
-  margin-bottom: 20px;
+  height: 150px;
+  margin-bottom: 16px;
   border-radius: 8px;
   border: none;
 }
@@ -1076,8 +1084,6 @@ body {
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 0.03em;
-  margin-bottom: 32px;
-  margin-top: 22px;
 }
 
 .contactform .contact-form .submit-btn:hover {
