@@ -989,3 +989,94 @@ body {
   display: flex;
   align-items: center;
 }
+
+/* Contact form css */
+.contactform {
+  height: 779px;
+  width: 375px;
+  background-image: url('contactform.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #6070FF;
+  border-top-left-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.contactform .contact-title {
+  color: #fff;
+  height: 56px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 103px;
+}
+
+.contactform .contact-description {
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  width: 327px;
+  height: 102px;
+  margin-bottom: 87px;
+}
+
+.contactform .contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactform .contact-form .input-field {
+  width: 327px;
+  height: 48px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.contactform .contact-form .input-field::placeholder {
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  padding: 15px 38px 15px 16px;
+  font-size: 17px;
+  color: #172b4d;
+}
+
+.contactform .contact-form .text-area {
+  width: 327px;
+  height: 170px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.contactform .contact-form .text-area::placeholder {
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  padding: 15px 38px 15px 16px;
+  font-size: 17px;
+  color: #b3bAc5;
+}
+
+.contactform .contact-form .submit-btn {
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+  align-self: flex-start;
+  background-color: #fff;
+  border: none;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  margin-bottom: 32px;
+  margin-top: 22px;
+}
