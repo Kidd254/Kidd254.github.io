@@ -997,13 +997,12 @@ body {
   background-image: url('contactform.svg');
   background-repeat: no-repeat;
   background-position: right;
-  background-color: #6070FF;
+  background-color: #6070ff;
   border-top-left-radius: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 .contactform .contact-title {
@@ -1016,7 +1015,7 @@ body {
 }
 
 .contactform .contact-description {
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -1043,7 +1042,7 @@ body {
 }
 
 .contactform .contact-form .input-field::placeholder {
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   padding: 15px 38px 15px 16px;
   font-size: 17px;
@@ -1059,11 +1058,11 @@ body {
 }
 
 .contactform .contact-form .text-area::placeholder {
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   padding: 15px 38px 15px 16px;
   font-size: 17px;
-  color: #b3bAc5;
+  color: #b3bac5;
 }
 
 .contactform .contact-form .submit-btn {
@@ -1081,7 +1080,6 @@ body {
   margin-top: 22px;
 }
 
-  .contactform .contact-form .submit-btn:hover {
-    background-color:#b3bAc5;
-
-  }
+.contactform .contact-form .submit-btn:hover {
+  background-color: #b3bac5;
+}
