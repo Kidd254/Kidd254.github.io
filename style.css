@@ -4,109 +4,183 @@ body {
   background-color: #e5e5e5;
 }
 
-.all {
-  width: 375px;
-  top: 20px;
-  left: 12px;
-  position: absolute;
-  background: #f7f7f9;
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-.bars {
-  position: absolute;
-  left: 3px;
-  top: 6px;
-  margin: 16px 35px 20px 323px;
-  width: 18px;
-  height: 12px;
-  background: #6070ff;
+body {
+  background-color: #e5e5e5;
+}
+
+/* Global styles */
+a {
+  text-decoration: none;
+}
+
+/* Header css */
+header {
+  height: 80px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header nav ul .menu-bar {
+  margin-right: 36px;
+  margin-top: 32px;
+  font-size: 24px;
 }
 
 .logo {
-  width: 150px;
-  height: 20px;
-  top: 10px;
-  left: 12px;
-  margin: 26px 223px 16px 24px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
+  margin: 32px 0 24px 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  align-self: center;
   color: #6070ff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
-.background {
+/* Introduction CSS */
+.introduction {
+  display: flex;
+  flex-direction: column;
   background-image: url(header-shapes\ mobile.jpg);
   background-repeat: no-repeat;
   background-size: auto;
-  position: absolute;
-  margin: 0;
 }
 
-.header {
-  width: 327px;
-  height: 150px;
-  top: 114px;
-  margin: 128px 24px 12px 24px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
+.introduction .introduction-title {
+  margin-left: 24px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
-  align-items: center;
+  margin-top: 128px;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
-.content {
-  width: 327px;
-  height: 146px;
-  top: 276px;
-  margin: 12px 24px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
+.introduction .introduction-desc {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  margin-left: 24px;
+  width: 327px;
+  height: 146px;
   color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
-.social-links {
-  width: 117px;
-  height: 24px;
-  margin: 72px 234px 15.03px 24px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
+.introduction .connect-title {
+  margin-left: 24px;
+  margin-top: 12px;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+}
+
+.introduction .connect {
+  display: flex;
+  flex-direction: row;
+  margin-left: 24px;
+}
+
+.introduction .connect li {
+  padding: 6px;
+  font-size: 22px;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px){
+  .introduction {
+  margin-top: 73px 8px 76.54px 34.6px;
+  position: absolute;
+  width: 1397.4px;
+  height: 721.46px;
+  background-image: url("Header\ bg.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .introduction .introduction-title {
+    margin-left: 260px;
+    width: 920px;
+    height: 122px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    color: #091E42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .introduction .introduction-desc {
+  margin: 12px 260px 12px 260px;
+  width: 920px;
+  height: 98px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
   flex: none;
   order: 0;
   flex-grow: 0;
+  }
 }
 
-.connect {
-  width: 170.17px;
-  height: 20px;
-  margin: 15.03px 180.83px 136px 24px;
-  top: 470px;
+@media screen and (min-width: 768px) {
+.introduction .connect-title {
+  margin-top: 12px;
+  margin-left: 260px;
+  width: 117px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
   flex: none;
-  order: 3;
+  order: 1;
   flex-grow: 0;
+} 
+}
+
+@media screen and (min-height: 768px) {
+  .introduction .connect {
+  display: flex;
+  flex-direction: row;
+  margin-left: 260px;
+  width: 170.17px;
+  height: 20px; 
+  /*margin-right: 1009.83px;
+  margin-bottom: 255px;
+  margin-left: 260px;
+  position: absolute;*/
+  }
+}
+
+@media screen and (min-width: 768px) {
+.introduction .connect li {
+  padding: 6px;
+  font-size: 22px;
+  margin-top: 14px;
+}
 }
 
 .container {
