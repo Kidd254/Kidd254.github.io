@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@media screen and (min-width: 768px) {
-  .container {
-    width: 100%;
-  }
-  
-}
+
 body {
   background-color: #e5e5e5;
 }
@@ -1099,15 +1094,10 @@ body {
 .contactform .indicator {
   margin-top: 11px;
   position: absolute;
-  width: 375px;
-  height: 34px;
-  left: calc(50% - 375px/2);
-  bottom: 0px;
-  position: absolute;
   width: 134px;
   height: 5px;
-  left: calc(50% - 134px/2 - 0.5px);
+  left: calc(50% - 134px / 2 - 0.5px);
   bottom: 8px;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
 }
