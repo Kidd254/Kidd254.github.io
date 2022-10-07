@@ -180,6 +180,28 @@ header nav ul .menu-bar {
     flex: none;
     order: 0;
     flex-grow: 0;
+    animation-duration: 4s;
+    animation-name: fadeInOut;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    color: cyan;
+  }
+
+  50% {
+    color: red;
+  }
+
+  75% {
+    color: blueviolet;
+  }
+
+  100% {
+    color: dodgerblue;
   }
 }
 
@@ -2116,6 +2138,7 @@ header nav ul .menu-bar {
     margin-top: 142px;
     margin-left: 320px;
     margin-right: 319px;
+    overflow: hidden;
   }
 }
 
@@ -2224,11 +2247,15 @@ header nav ul .menu-bar {
     letter-spacing: 0.03em;
     margin-bottom: 45px;
     margin-top: 22px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
   }
 }
 
 .contactform .contact-form .submit-btn:hover {
-  background-color: #b3bac5;
+  background-color: #fcc;
+  width: 200px;
+  height: 200px;
+  transform: rotate(180deg);
 }
 
 .contactform .indicator {
