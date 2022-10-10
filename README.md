@@ -1,5 +1,6 @@
 #Portfolio-setup-and-mobile-first
     this project was build using Html and css. Git, Github, and Vs Code Studio were key technological tools used in this project.
+    [My link to the website version](https://kidd254.github.io/)
 
 #Getting Started
 To get a local copy up and running follow these simple example steps.
