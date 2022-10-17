@@ -231,6 +231,7 @@ header nav ul .menu-bar {
     flex: none;
     order: 3;
     flex-grow: 0;
+    overflow: hidden;
   }
 }
 
@@ -524,6 +525,7 @@ header nav ul .menu-bar {
     margin-left: 0;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
+    overflow: hidden;
   }
 
   .container .left-block .action12 .see-it11 .see11 {
@@ -780,6 +782,7 @@ header nav ul .menu-bar {
     flex-grow: 0;
     height: 153px;
     width: 496px;
+    overflow: hidden;
   }
 
   .section3 .left_block .action1212 .see-it1111 {
@@ -796,6 +799,7 @@ header nav ul .menu-bar {
     margin-left: 0;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
+    overflow: hidden;
   }
 
   .section3 .left_block .action1212 .see-it1111 .see1111 {
@@ -1068,6 +1072,7 @@ header nav ul .menu-bar {
     margin-left: 0;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
+    overflow: hidden;
   }
 
   .section4 .left_block1 .action121212 .see-it111111 .see111111 {
@@ -1340,6 +1345,7 @@ header nav ul .menu-bar {
     margin-left: 0;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
+    overflow: hidden;
   }
 
   .section5 .left_block11 .action1212122 .see-it1111111 .see1111111 {
@@ -2059,6 +2065,7 @@ header nav ul .menu-bar {
     flex: none;
     order: 0;
     flex-grow: 0;
+    overflow: hidden;
   }
 }
 
