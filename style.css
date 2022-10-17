@@ -91,16 +91,16 @@ header nav ul .menu-bar {
 .image {
   display: none;
   height: 50px;
-    width: 250px;
-    display: none;
+  width: 250px;
 }
-@media screen and (min-width: 768px) { 
+
+@media screen and (min-width: 768px) {
   header nav ul .menu-bar {
     display: none;
     width: 0;
     height: 0;
   }
-}*/
+}
 
 /* Introduction CSS */
 .introduction {
@@ -142,8 +142,8 @@ header nav ul .menu-bar {
 .button {
   width: 80px;
   height: 20px;
-  
 }
+
 @media screen and (min-width: 768px) {
   .connect {
     display: flex;
@@ -171,7 +171,7 @@ header nav ul .menu-bar {
 
 @media screen and (min-width: 768px) {
   .introduction {
-    margin-top: 73px 8px 76.54px 34.6px;
+    margin: 73px 8px 76.54px 34.6px;
     position: absolute;
     width: 1397.4px;
     height: 721.46px;
@@ -1431,7 +1431,7 @@ header nav ul .menu-bar {
 }
 
 .title2 {
-  top: 12;
+  top: 12px;
   width: 295px;
   height: 36px;
   font-family: 'Poppins', sans-serif;
@@ -1777,11 +1777,11 @@ header nav ul .menu-bar {
 
 .see2 {
   width: 124px;
-  height: 48 px;
+  height: 48px;
   margin-top: 12px;
   padding: 12px;
   border: 1px solid #6070ff;
-  box-sizing: flex;
+  box-sizing: border-box;
   flex-direction: row;
   align-items: center;
   gap: 10px;
@@ -2327,7 +2327,7 @@ header nav ul .menu-bar {
 
 .language-list {
   width: 327px;
-  height: 248.15;
+  height: 248.15px;
   margin-top: 72px;
   padding: 12px;
   gap: 12px;
