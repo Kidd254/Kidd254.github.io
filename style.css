@@ -88,13 +88,19 @@ header nav ul .menu-bar {
   color: #344563;
 }
 
-@media screen and (min-width: 768px) {
+.image {
+  display: none;
+  height: 50px;
+    width: 250px;
+    display: none;
+}
+@media screen and (min-width: 768px) { 
   header nav ul .menu-bar {
     display: none;
     width: 0;
     height: 0;
   }
-}
+}*/
 
 /* Introduction CSS */
 .introduction {
@@ -133,11 +139,27 @@ header nav ul .menu-bar {
   color: #7f8cff;
 }
 
+.button {
+  width: 80px;
+  height: 20px;
+  
+}
 @media screen and (min-width: 768px) {
   .connect {
     display: flex;
     flex-direction: row;
     margin-left: 24px;
+  }
+
+  .image {
+    height: 50px;
+    width: 250px;
+    display: none;
+  }
+
+  .button {
+    width: 80px;
+    height: 20px;
   }
 }
 
