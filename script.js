@@ -1,5 +1,6 @@
 function reveal() {
-  document.getElementsByClassName('image').style.display = 'block';
-  document.getElementsByClassName('menu-bar').style.display = 'none';
+  document.getElementById('image').style.display ='block';
+  document.getElementById('btn').style.display ='none';
+  onclick = "this.style.display='none'";
 }
 reveal();
