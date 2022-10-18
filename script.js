@@ -1,5 +1,9 @@
 function reveal() {
-  document.getElementById('image').style.display = 'block';
-  document.getElementById('btn').style.display = 'none';
+  const button = document.getElementById('image');
+  if (button.style.display === 'none') {
+    button.style.display = 'block';
+  } else {
+    button.style.display = 'none';
+  }
 }
 reveal();

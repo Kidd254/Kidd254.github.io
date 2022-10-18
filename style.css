@@ -147,6 +147,10 @@ header nav ul .menu-bar {
   height: 20px;
 }
 
+#btn:hover {
+  background-color: dodgerblue;
+}
+
 @media screen and (min-width: 768px) {
   .connect {
     display: flex;
@@ -283,7 +287,7 @@ header nav ul .menu-bar {
   box-sizing: border-box;
   width: 375px;
   height: 600px;
-  margin-top: 700px;
+  margin-top: 60px;
   margin-left: 0;
   padding: 16px;
   align-items: flex-start;
@@ -1388,6 +1392,34 @@ header nav ul .menu-bar {
   }
 }
 
+/* .title-desk {
+display: none;
+}
+
+.sub1 {
+  display: none;
+}
+
+.primary-desk {
+  display: none;
+}
+
+.title_desk {
+  display: none;
+}
+
+.tags2 .li2 .text0 {
+  display: none;
+}
+.action12{
+  order: 3;
+}
+.sub_desk {
+  display: none;
+  height: 0;
+  width: 0;
+} */
+
 .right-block {
   background: url(Snapshoot\ Portfolio.jpg);
   background-size: contain;
@@ -1670,7 +1702,6 @@ header nav ul .menu-bar {
 .container3 {
   width: 327px;
   height: 608px;
-  margin-top: 24px;
   left: 24px;
   padding: 16px;
   gap: 12px;
@@ -1835,7 +1866,7 @@ header nav ul .menu-bar {
   background: #fff;
   border-radius: 16px;
   flex: none;
-  order: 1;
+  order: 3;
   flex-grow: 0;
 }
 
